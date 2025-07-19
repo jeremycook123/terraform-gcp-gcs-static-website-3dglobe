@@ -20,7 +20,8 @@ provider "google" {
 }
 
 module "webglobe" {
-  source = "../"
+  source  = "jeremycook123/gcs-static-website-3dglobe/gcp"
+  version = "0.0.1"
 
   region               = var.region
   zone                 = var.zone
