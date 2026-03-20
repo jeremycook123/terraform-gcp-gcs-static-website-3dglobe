@@ -1,3 +1,8 @@
+variable "gcp_project" {
+  description = "GCP project ID for the resources"
+  type        = string
+}
+
 variable "region" {
   description = "GCP region for the resources"
   type        = string

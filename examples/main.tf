@@ -14,7 +14,7 @@ terraform {
 
 provider "google" {
   credentials = file("./auth.json")
-  project     = "ca-devops-123456"
+  project     = var.gcp_project
   region      = var.region
   zone        = var.zone
 }
